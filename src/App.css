@@ -1,5 +1,172 @@
-.hr {
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+ .App-header {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+ 
+ hr {
   background-color: #ccc;
   height: 1px;
   border: none;
+}
+
+ #heading {
+   font-size: 30px;
+   font-weight: 700;
+   padding: 0px 120px 0px 20px;
+ }
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+.card-column {
+  float: left;
+  width: 19%;
+  text-align: center;
+  
+}
+
+.checkbox-column {
+  float: left;
+  width: 1%;
+  margin-right: 15px;
+  
+}
+
+.division-column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+.table-column {
+  float: left;
+  width: 75%;
+  padding: 0 10px;
+  margin-top: 4vh;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 30px rgba(192, 192, 192, 0.25);
+  border-radius: 6px; /* this adds the "card" effect */
+  padding: 16px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.division-card {
+  width: 100%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.table {
+  width: 107%;
+}
+
+.table-card-header {
+  background-color: #F3F6F9;
+  width: 107.2%;
+  
+}
+
+/* #checkbox {
+  margin-left: 15px;
+  margin-right: 20px;
+} */
+
+.contentes {
+  padding-left: 80px;
+  padding-right: 70px;
+
+}
+
+.contents {
+  text-align: center;
+
+}
+
+.input-icons i { 
+  position: absolute; 
+} 
+
+.input-icons { 
+  width: 100%; 
+  margin-bottom: 10px; 
+} 
+
+.icon { 
+  padding: 10px; 
+  min-width: 40px; 
+} 
+
+.input-field { 
+  width: 12%; 
+  padding: 10px; 
+  text-align: center; 
+} 
+
+#parent {
+  list-style: none;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#parent > li {
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  background-color: red;
+}
+
+#parent > li:nth-child(even) {
+  background-color: blue;
 }
