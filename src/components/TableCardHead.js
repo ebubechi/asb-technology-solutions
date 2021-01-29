@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const TableCardHead = () => {
-    return (
-        <div className="table-card-header">
-           <div className="card">
+  return (
+    <div className="table-card-header">
+      <div className="card">
         <div className="row">
-          <input id='checkbox' type="checkbox" />
+          <input id="checkbox" type="checkbox" />
           <b className="contentes">NAME</b>
           <b className="contentes">LOCATION</b>
           <b className="contentes">STATUS</b>
           <b className="contentes">ENTERIES</b>
-          <b className="contentes">RISK PROFILE</b>
+          <b className="contentes">RISKPROFILE</b>
         </div>
-      </div> 
-        </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default TableCardHead
+export default TableCardHead;

@@ -33,6 +33,42 @@ function App() {
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
 							status="No isuess"
+							isIsuess={false}
+							enteries="&#x25cf; 19 Unique entries"
+							risk="Low Risk"
+						/>
+						<TableCard
+							name="Courtney Henry"
+							location="Lagos State"
+							subLocation="775  Rolling Green Rd."
+							status="2 isuesses found"
+							enteries="&#x25cf; 19 Unique entries"
+							risk="Mid Risk"
+						/>
+						<TableCard
+							name="Courtney Henry"
+							location="Lagos State"
+							subLocation="775  Rolling Green Rd."
+							status="No isuess"
+							isIsuess={false}
+							enteries="&#x25cf; 19 Unique entries"
+							risk="Mid Risk"
+						/>
+						<TableCard
+							name="Courtney Henry"
+							location="Lagos State"
+							subLocation="775  Rolling Green Rd."
+							status="1 isuess found"
+							isIsuess={true}
+							enteries="&#x25cf; 19 Unique entries"
+							risk="High Risk"
+						/>
+						<TableCard
+							name="Courtney Henry"
+							location="Lagos State"
+							subLocation="775  Rolling Green Rd."
+							status="3 isuesses found"
+							isIsuess={true}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Low Risk"
 						/>
@@ -41,22 +77,7 @@ function App() {
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
 							status="No isuess"
-							enteries="&#x25cf; 19 Unique entries"
-							risk="Mid Risk"
-						/>
-						<TableCard
-							name="Courtney Henry"
-							location="Lagos State"
-							subLocation="775  Rolling Green Rd."
-							status="No isuess"
-							enteries="&#x25cf; 19 Unique entries"
-							risk="Mid Risk"
-						/>
-						<TableCard
-							name="Courtney Henry"
-							location="Lagos State"
-							subLocation="775  Rolling Green Rd."
-							status="No isuess"
+							isIsuess={false}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="High Risk"
 						/>
@@ -65,22 +86,7 @@ function App() {
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
 							status="No isuess"
-							enteries="&#x25cf; 19 Unique entries"
-							risk="Low Risk"
-						/>
-						<TableCard
-							name="Courtney Henry"
-							location="Lagos State"
-							subLocation="775  Rolling Green Rd."
-							status="No isuess"
-							enteries="&#x25cf; 19 Unique entries"
-							risk="High Risk"
-						/>
-						<TableCard
-							name="Courtney Henry"
-							location="Lagos State"
-							subLocation="775  Rolling Green Rd."
-							status="No isuess"
+							isIsuess={false}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Mid Risk"
 						/>
@@ -88,7 +94,8 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="No isuess"
+							status="8 isuesses found"
+							isIsuess={true}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Low Risk"
 						/>

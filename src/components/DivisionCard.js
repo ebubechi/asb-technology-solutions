@@ -7,7 +7,7 @@ const DivisionCard = () => {
             <div className='card'>
                 <h2>Division Summary</h2>
                 <h4>080 12445678</h4>
-                <h4>absfefr@gmail.com</h4>
+                <a href='#'><h4>absfefr@gmail.com</h4></a>
                 <h4>24 fingerprints enrolled</h4>
             </div>
         </div>

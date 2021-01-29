@@ -14,9 +14,9 @@
 
 .header {
 	overflow: hidden;
-	border-bottom: solid 1px rgb(46, 45, 45);
-  background-color: #fff;
-  max-height: 100px;
+	border-bottom: solid 2px #bebcbc;
+  	background-color: #fff;
+  	max-height: 100px;
 }
 /* Style the header links */
 .header a {
@@ -31,22 +31,30 @@
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 15px;
-	border-radius: 4px;
+	border-radius: 0px;
 }
+
 .header a:hover {
-	background-color: #ddd;
+	background-color: #DEEFFF;
 	color: black;
-	border-bottom: blue solid 3px;
+	border-bottom: #006FD6 solid 7px;
 }
-.header a.active {
+/* .header a.active {
 	background-color: dodgerblue;
 	color: white;
 	border-bottom: blue 3px;
-}
+
+
+	#DEEFFF
+} */
 
 /* Float the link section to the right */
 .header-right {
 	float: right;
+}
+
+a {
+	color: #006FD6;
 }
 
 .flex-container1 {
@@ -85,6 +93,7 @@ hr {
 	font-weight: 700;
 	padding: 0px 120px 0px 20px;
 }
+
 
 * {
 	box-sizing: border-box;
@@ -160,8 +169,11 @@ body {
 	width: 100%;
 	margin-top: 4vh;
 	margin-bottom: 4vh;
-	/* margin-left: auto;
-  margin-right: auto; */
+	
+}
+
+.module-card {
+	width: 100%;
 }
 
 .table {
@@ -179,9 +191,21 @@ body {
 } */
 
 .contentes {
+	margin-top: 0px;
+	padding-top: 0px;
 	padding-left: 100px;
 	padding-right: 70px;
 }
+
+.isuess {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 11px;
+}
+
+/* .center-card-content {
+	
+} */
 
 .contents {
 	text-align: center;
