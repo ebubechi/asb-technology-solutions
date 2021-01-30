@@ -5,12 +5,12 @@ const TableCardHead = () => {
     <div className="table-card-header">
       <div className="card">
         <div className="row">
-          <input id="checkbox" type="checkbox" />
+          {/* <input id="checkbox" type="checkbox" /> */}
           <b className="contentes">NAME</b>
-          <b className="contentes">LOCATION</b>
-          <b className="contentes">STATUS</b>
-          <b className="contentes">ENTERIES</b>
-          <b className="contentes">RISKPROFILE</b>
+          <b className="contentes1">LOCATION</b>
+          <b className="contentes2">STATUS</b>
+          <b className="contentes3">ENTRIES</b>
+          <b className="contentes4">RISK PROFILE</b>
         </div>
       </div>
     </div>

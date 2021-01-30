@@ -193,11 +193,39 @@ body {
 .contentes {
 	margin-top: 0px;
 	padding-top: 0px;
-	padding-left: 100px;
+	padding-left: 80px;
 	padding-right: 70px;
 }
 
-.isuess {
+.contentes1 {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 80px;
+	padding-right: 70px;
+}
+
+.contentes2 {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 50px;
+	padding-right: 90px;
+}
+
+.contentes3 {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 87px;
+	padding-right: 70px;
+}
+
+.contentes4 {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 70px;
+}
+
+.issues {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border-radius: 11px;
@@ -209,6 +237,12 @@ body {
 
 .contents {
 	text-align: center;
+}
+
+.contenter {
+	position: relative;
+	text-align: center;
+	float: left;
 }
 
 .input-icons i {
@@ -257,4 +291,5 @@ body {
 	content: "\2807";
 	font-size: 20px;
 	color: #c3c3c3;
+	margin-left: 10vh;
 }

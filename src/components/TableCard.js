@@ -6,7 +6,7 @@ const TableCard = ({
   location,
   subLocation,
   status,
-  isIsuess,
+  isissues,
   enteries,
   subEnteries,
   risk,
@@ -29,12 +29,12 @@ const TableCard = ({
           <div className="card-column">
 			  <p></p>
 			  <div className='center-card-content'>
-				{isIsuess ? (
-							<div className="isuess" style={{color: '#8C70FF', background: '#F6F3FF'}}>
+				{isissues ? (
+							<div className="issues" style={{color: '#8C70FF', background: '#F6F3FF'}}>
 								<b className="contents">{status}</b>
 							</div>
 							) : (
-							<div className="isuess" style={{color: '#F4B400', background: '#FFF6DE'}}>
+							<div className="issues" style={{color: '#F4B400', background: '#FFF6DE'}}>
 								<b className="contents">{status}</b>
 							</div>
 							)}
@@ -50,7 +50,7 @@ const TableCard = ({
 								
 		  </div>
           <div className="card-column">
-            <b className="contents">{risk}</b> &nbsp;&nbsp;
+            <b className="contenter">{risk}</b> &nbsp;&nbsp;
             <span class="v-elipses"></span>
           </div>
         </div>

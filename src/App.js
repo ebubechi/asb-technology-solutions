@@ -32,8 +32,8 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="No isuess"
-							isIsuess={false}
+							status="No issues"
+							isissues={false}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Low Risk"
 						/>
@@ -41,7 +41,7 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="2 isuesses found"
+							status="2 issueses found"
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Mid Risk"
 						/>
@@ -49,8 +49,8 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="No isuess"
-							isIsuess={false}
+							status="No issues"
+							isissues={false}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Mid Risk"
 						/>
@@ -58,8 +58,8 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="1 isuess found"
-							isIsuess={true}
+							status="1 issues found"
+							isissues={true}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="High Risk"
 						/>
@@ -67,8 +67,8 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="3 isuesses found"
-							isIsuess={true}
+							status="3 issueses found"
+							isissues={true}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Low Risk"
 						/>
@@ -76,8 +76,8 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="No isuess"
-							isIsuess={false}
+							status="No issues"
+							isissues={false}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="High Risk"
 						/>
@@ -85,8 +85,8 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="No isuess"
-							isIsuess={false}
+							status="No issues"
+							isissues={false}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Mid Risk"
 						/>
@@ -94,8 +94,8 @@ function App() {
 							name="Courtney Henry"
 							location="Lagos State"
 							subLocation="775  Rolling Green Rd."
-							status="8 isuesses found"
-							isIsuess={true}
+							status="8 issueses found"
+							isissues={true}
 							enteries="&#x25cf; 19 Unique entries"
 							risk="Low Risk"
 						/>
